@@ -4,8 +4,8 @@ This is the [Landing Page](https://www.theodinproject.com/lessons/foundations-la
 ## Style Map  
 ![image](./template-images/02.png)
 
-## Final WebPage:  
+## Final WebPage  
 ![image](./template-images/01.png)
 
-## Solution:
-[Landing-Page]()
+## Solution  
+[Landing-Page](https://tej-88.github.io/Landing-Page/)
