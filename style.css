@@ -181,3 +181,14 @@ a {
     font-size: 18px;
     color: #f9faf8;
 }
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    padding: 20px 150px 20px 150px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #e5e7eb;
+}
