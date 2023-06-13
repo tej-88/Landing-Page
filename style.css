@@ -10,7 +10,7 @@ body {
     color: white;
     display: flex;
     justify-content: space-between;
-    padding: 20px 150px;
+    padding: 20px 150px 50px 150px;
 }
 
 .logo {
@@ -34,12 +34,13 @@ a {
 .main {
     display: flex;
     background-color: #1f2937;
-    padding: 50px 150px 70px 150px;
+    padding: 50px 150px 100px 150px;
     gap: 20px;
-    height: 250px;
+    height: 200px;
 }
 
 .text { 
+    flex-direction: column;
     flex: 1;
 }
 
@@ -47,25 +48,19 @@ a {
     font-size: 48px;
     color: #f9faf8;
     font-weight: bolder;
-    display: flex;
-    flex-direction: column;
-    flex: 1;
 }
 
 .submain {
     font-size: 18px;
     color: #e5e7eb;
-    display: flex;
-    flex-direction: column;
-    flex: 1;
 }
 
 .image {
-    flex: 1;
     font-size: 18px;
     color: #e5e7eb;
     background-color: grey;
     display: flex;
+    flex: 1;
     justify-content: center;
     align-items: center;
 }
@@ -77,9 +72,47 @@ a {
     justify-content: center;
     align-items: center;
     border-radius: 8px;
-    flex: 0;
     height: 40px;
     width: 120px;
     padding: 0px;
     margin: 0px;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 150px 100px 150px;
+    gap: 40px;
+    
+}
+
+.second-header {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937; 
+}
+
+.second-footer {
+    display: flex;
+    gap: 50px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 150px;
+}
+
+.second-image {
+    border-radius: 12px;
+    border: 2px solid #3882f6;
+    height: 150px;
+}
+
+.subtext {
+    font-size: 18px;
+    color: black;
+    text-align: center;
 }
