@@ -138,3 +138,46 @@ a {
     display: flex;
     justify-content: flex-end;
 }
+
+.fourth {
+    padding: 100px 150px 100px 150px;
+}
+
+.blue {
+    background-color: #3882f6;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.fourth-button {
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    height: 40px;
+    width: 120px;
+    padding: 0px;
+    margin: 0px;
+    border-color: white;
+    border-width: medium;
+}
+
+.fourth-left {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.fourth-text {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.fourth-subtext {
+    font-size: 18px;
+    color: #f9faf8;
+}
