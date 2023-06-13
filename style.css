@@ -116,3 +116,25 @@ a {
     color: black;
     text-align: center;
 }
+
+.third {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 100px 250px 100px 250px;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.author {
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
